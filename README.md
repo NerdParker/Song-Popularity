@@ -10,7 +10,7 @@ This capstone project serves to answer the question of what makes a song popular
 
 ### Data Exploration and Cleaning:
 All of the data files can be found in the "Data" folder.
-The initial data cleaning and exploration can be found in `Practicum BB Lyric Sentiment Analysis.ipynb` and `Practicum MS subset Exploration.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
+The initial data cleaning and exploration can be found in `Practicum Lyric Text Cleaning & Exploration.ipynb` and `Practicum MS subset Exploration.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
 1. The top 100 billboard song lyrics data from 1964 - 2015 after some general cleaning looks like this:
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Dataset%20Sample.PNG)
@@ -61,11 +61,13 @@ Not a whole lot interesting to be derived from this, given the time I would like
 
 
 ### Lyric Sentiment Analysis:
-
+The lyric sentiment analysis work can be found in `Practicum BB Lyric Sentiment Analysis.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
 ### Billboard Toppers LDA Topic Modeling and UMAP Clustering:
+The LDA Topic Modeling and UMAP Clustering work can be found in `Practicum BB LDA Topic Modeling.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
 ### Million-song Subset Machine Learning Models:
+The million-song subset machine learning models work can be found in `Practicum MSD ML Models.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
 ### Conclusions:
 
