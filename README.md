@@ -20,6 +20,7 @@ A wordcloud of the results is below:
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Cleaned%20Lyric%20WordCloud.PNG)
 
+The wordcloud reveals that the top words are love, know, cause, want, oh oh, baby, girl, come etc. We can see this further with a bar chart. 
 I used matplotlib and seaborn to visualize the top occurring words post cleaning:
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Top%20Words%20Visual.PNG)
@@ -28,10 +29,12 @@ I visualized the top artists of the past 50 years with the most billboard topper
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Artists%20With%20most%20BB%20Toppers.PNG)
 
+We can see that there are many artists who are great and quite close together in chart toppers in the top artists but no one comes close to Madonna.
 My final initial exploration of the billboard lyrics was to see how lyric variety has changed overtime:
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Variety%20Overtime.PNG)
 
+Lyric variety appears to have peaked in the early 2000s and has generally been on the decline. Interestingly the lyric variety is still double what it was around the 1970s.
 
 3. The other major dataset used in this project comes from the Million Song dataset. Obviously, this data would require much more capabilities to handle than I personally possess. So instead I have used a 10,000-song subset of this dataset which contains a variety of useful information about the songs. I combined the billboard lyrics data into the same excel file as this one and used a quick excel lookup to find all the billboard hits in our subset and mark them in a new column called `bb_hotsong`. I removed some data I was not interested in such as artist, song title, year, latitude, longitude and location. I also removed all the rows with missing data and ended up with 5648 songs with 410 appearing on our billboard chart toppers! The result can be seen here:
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Dataset%20Sample.PNG)
