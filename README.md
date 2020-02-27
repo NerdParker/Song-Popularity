@@ -40,9 +40,13 @@ My final initial exploration of the billboard lyrics was to see how lyric variet
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20subset%20Variable%20Correlation.PNG)
 
+Unfortunately, none of the data appears to be correlated with billboard hotness, this may be in part to only having data for 410/5100 of our billboard toppers. We do see a slight correlation between song hotness and artist hotness/familiarity. This suggests that already popular/known artists have a higher likelihood of having popular songs, but it is no means guaranteed.
+
 An alternative way to try to see any data trends although an eyesore is a pairwise plot:
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20SNS%20Pairplot.png)
+
+Again, not much happening with billboard hotness but the usefulness of the pairwise plot can be seen quite clearly in some variables such as the correlation between song duration and start of fade out. 
 
 Finally, I examined some of the distributions of other interesting variables:
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20End%20of%20Fade%20In.png)
@@ -50,6 +54,7 @@ Finally, I examined some of the distributions of other interesting variables:
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20Loudness.png)
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20Tempo.png)
 
+Not a whole lot interesting to be derived from this, given the time I would like to come back and compare these figures with identical ones that only incorporate the billboard toppers to perhaps notice a trend in the billboard hits although our correlation plot suggests that might be pointless.
 
 
 ### Lyric Sentiment Analysis:
