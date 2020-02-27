@@ -33,12 +33,24 @@ My final initial exploration of the billboard lyrics was to see how lyric variet
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Variety%20Overtime.PNG)
 
 
-3. The other major dataset used in this project comes from the Million Song dataset. Obviously, this data would require much more capabilities to handle than I personally possess. So instead I have used a 10,000 song subset of this dataset which containa a variety of useful information about the songs. I combined the billboard lyrics data into the same excel file as this one and used a quick excel lookup to find all of the billboard hits in our subset and mark them in a new column called `bb_hotsong`. I removed some data I was not interested in such as artist, song title, year, latitude, longitude and location. The result can be seen here:
+3. The other major dataset used in this project comes from the Million Song dataset. Obviously, this data would require much more capabilities to handle than I personally possess. So instead I have used a 10,000-song subset of this dataset which contains a variety of useful information about the songs. I combined the billboard lyrics data into the same excel file as this one and used a quick excel lookup to find all the billboard hits in our subset and mark them in a new column called `bb_hotsong`. I removed some data I was not interested in such as artist, song title, year, latitude, longitude and location. I also removed all the rows with missing data and ended up with 5648 songs with 410 appearing on our billboard chart toppers! The result can be seen here:
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Dataset%20Sample.PNG)
 
-4. in exploring this data the first thing I wanted to do was see if there was any low hanging fruit as far as correlation go so ofcourse I made a correlation plot!
+4. In exploring this data the first thing I wanted to do was see if there was any low hanging fruit as far as correlation go so of course I made a correlation plot!
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20subset%20Variable%20Correlation.PNG)
+
+An alternative way to try to see any data trends although an eyesore is a pairwise plot:
+
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20SNS%20Pairplot.png)
+
+Finally, I examined some of the distributions of other interesting variables:
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20End%20of%20Fade%20In.png)
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20Key.png)
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20Loudness.png)
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/MS%20Tempo.png)
+
+
 
 ### Lyric Sentiment Analysis:
 
