@@ -15,6 +15,14 @@ The initial data cleaning and exploration can be found in `Practicum BB Lyric Se
 1. The top 100 billboard song lyrics data from 1964 - 2015 after some general cleaning looks like this:
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Dataset%20Sample.PNG)
 
+2. Next I cleaned the lyrics by removing punctuation and digits. I left the pronouns, lemmatized the rest to remove the stop words and then joined them back together. I also removed any links, emails and quotes out of habit. 
+A wordcloud of the results is below:
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Cleaned%20Lyric%20WordCloud.PNG)
+
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Top%20Words%20Visual.PNG)
+
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Artists%20With%20most%20BB%20Toppers.PNG)
+
 ### Lyric Sentiment Analysis:
 
 ### Billboard Toppers LDA Topic Modeling and UMAP Clustering:
