@@ -73,6 +73,7 @@ A new wordcloud now that the bi-gram and tri-gram models were added is shown bel
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/wordlcoud%20bigrams_trigrams.png)
 
 An small examination of the most polarizing song lyrics are below:
+
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/polarity%20negative.PNG)
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/polarity%20positive.PNG)
 
