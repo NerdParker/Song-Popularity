@@ -10,7 +10,7 @@ This capstone project serves to answer the question of what makes a song popular
 
 ### Data Exploration and Cleaning:
 All of the data files can be found in the "Data" folder.
-The initial data cleaning and exploration can be found in 'Practicum BB Lyric Sentiemnt Analysis.ipynb' and 'Practicum MS subset Exploration.ipynb' in the 'Jupyter Notebooks' folder as well as the respective python files in the 'Python files' folder.
+The initial data cleaning and exploration can be found in `Practicum BB Lyric Sentiemnt Analysis.ipynb` and `Practicum MS subset Exploration.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 ### Lyric Sentiment Analysis:
 ### Billboard Toppers LDA Topic Modeling and UMAP Clustering:
 ### Million-song Subset Machine Learning Models:
