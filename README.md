@@ -29,7 +29,7 @@ I visualized the top artists of the past 50 years with the most billboard topper
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Artists%20With%20most%20BB%20Toppers.PNG)
 
-We can see that there are many artists who are great and quite close together in chart toppers in the top artists but no one comes close to Madonna.
+We can see that there are many artists who are great and quite close together in chart toppers in the top artists, but no one comes close to Madonna.
 My final initial exploration of the billboard lyrics was to see how lyric variety has changed overtime:
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Variety%20Overtime.PNG)
@@ -63,11 +63,30 @@ Not a whole lot interesting to be derived from this, given the time I would like
 ### Lyric Sentiment Analysis:
 The lyric sentiment analysis work can be found in `Practicum BB Lyric Sentiment Analysis.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
+1. In addition to previous text cleaning bi-gram and tri-gram models were made and lemmatized for the text cleaning. TextBlob was sued to determine the sentiment of the lyrics and the results plotted below:
+
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Sentiment.png)
+
+We see that the lyrics are overall positive which may be surprising to some.
+A new wordcloud now that the bi-gram and tri-gram models were added is shown below with previous phrases such as "oh oh" removed. 
+
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/wordlcoud%20bigrams_trigrams.png)
+
+An small examination of the most polarizing song lyrics are below:
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/polarity%20negative.PNG)
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/polarity%20positive.PNG)
+
 ### Billboard Toppers LDA Topic Modeling and UMAP Clustering:
 The LDA Topic Modeling and UMAP Clustering work can be found in `Practicum BB LDA Topic Modeling.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/LDA%201%20pydavis.PNG)
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/LDA%202%20pydavis.PNG)
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/UMAP%20BB%20Song%20Topics.PNG)
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/UMAP%20Topics%20split.png)
+
 ### Million-song Subset Machine Learning Models:
 The million-song subset machine learning models work can be found in `Practicum MSD ML Models.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/ML%20Models%20Results.PNG)
 
 ### Conclusions:
 
