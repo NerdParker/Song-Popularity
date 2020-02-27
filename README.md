@@ -17,11 +17,20 @@ The initial data cleaning and exploration can be found in `Practicum BB Lyric Se
 
 2. Next I cleaned the lyrics by removing punctuation and digits. I left the pronouns, lemmatized the rest to remove the stop words and then joined them back together. I also removed any links, emails and quotes out of habit. 
 A wordcloud of the results is below:
+
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Cleaned%20Lyric%20WordCloud.PNG)
+
+I used matplotlib and seaborn to visualize the top occuring words post cleaning:
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Top%20Words%20Visual.PNG)
 
+I visualized the top artists of the past 50 years with the most billboard toppers:
+
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Artists%20With%20most%20BB%20Toppers.PNG)
+
+My final initial exploration of the billboard lyrics was to see how lyric variety has changed overtime:
+
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Variety%20Overtime.PNG)
 
 ### Lyric Sentiment Analysis:
 
