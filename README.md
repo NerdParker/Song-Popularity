@@ -103,6 +103,8 @@ These topics are the two largest as we see in the next two pyDavis charts and th
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/LDA%202%20pydavis.PNG)
 
+I used train/test to split the data and Logistic Regression to apply the topics from this model to test its ability to assign a topic to unseen future data. The result was 67.3% accuracy in topic labeling.
+
 To cluster the topics the dimensions are reduced using Uniform Manifold Approximation and Projection for Dimension Reduction or UMAP. Words are embedded in two dimensions and a TF-IDF matrix is plotted below:
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/UMAP%20BB%20Song%20Topics.PNG)
