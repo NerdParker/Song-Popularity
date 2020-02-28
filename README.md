@@ -107,9 +107,12 @@ A fair bit of overlap in the clusters can be seen, likely due to how many songs 
 
 ### Million-song Subset Machine Learning Models:
 The million-song subset machine learning models work can be found in `Practicum MSD ML Models.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
+
+The data was split into test and training sets training on 35% of the data. The prediction accuracy was 96%. Each model was cross validated, and the means of those validations rated against one another. The results are as follows:
+
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/ML%20Models%20Results.PNG)
 
-
+Logistic Regression had the highest result with a score of 57.25% and the Linear SVC model performing the worst at 49.68%. 
 
 ### Conclusions:
 
