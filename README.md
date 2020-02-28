@@ -66,6 +66,7 @@ I also wanted to utilize Tableau again for this dataset and after examining all 
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Loudness%20Colored%20by%20Hotness.PNG)
 
+This plot features "bins" of songs grouping them and coloring them by song hotness. The hottest songs are in bins 5.2-6.9 which are also the loudest songs. 
 
 
 ### Lyric Sentiment Analysis:
