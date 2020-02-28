@@ -60,6 +60,7 @@ Finally, I examined some of the distributions of other interesting variables:
 Not a whole lot interesting to be derived from this, given the time I would like to come back and compare these figures with identical ones that only incorporate the billboard toppers to perhaps notice a trend in the billboard hits although our correlation plot suggests that might be pointless.
 
 
+
 ### Lyric Sentiment Analysis:
 The lyric sentiment analysis work can be found in `Practicum BB Lyric Sentiment Analysis.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
@@ -77,17 +78,38 @@ An small examination of the most polarizing song lyrics are below:
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/polarity%20negative.PNG)
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/polarity%20positive.PNG)
 
+
+
 ### Billboard Toppers LDA Topic Modeling and UMAP Clustering:
 The LDA Topic Modeling and UMAP Clustering work can be found in `Practicum BB LDA Topic Modeling.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
+In these files an LDA model of the previously cleaned text is created around 8 topics. The resulting topics are:
+
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/LDA%20topics.PNG)
+
+We see some interesting topics we could dive in across a number of these topics. I'd like to focus on topic 1 and 2 which are about love/feelings and money/less happy things. 
+
+These topics are the two largest as we see in the next two pyDavis charts and they also happen to be the most related. I find these interesting as one is about love and positive feelings while the other is clearly about more negative concepts. 
+
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/LDA%201%20pydavis.PNG)
+
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/LDA%202%20pydavis.PNG)
+
+To cluster the topics the dimensions are reduced using Uniform Manifold Approximation and Projection for Dimension Reduction or UMAP. Words are embedded in two dimensions and a TF-IDF matrix is plotted below:
+
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/UMAP%20BB%20Song%20Topics.PNG)
+
+A fair bit of overlap in the clusters can be seen, likely due to how many songs share similar vocabulary. To see the topics individually they have been split out in the subsequent graph and we see that topic 1 is heavily overrepresented.  
+
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/UMAP%20Topics%20split.png)
+
+
 
 ### Million-song Subset Machine Learning Models:
 The million-song subset machine learning models work can be found in `Practicum MSD ML Models.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/ML%20Models%20Results.PNG)
+
+
 
 ### Conclusions:
 
