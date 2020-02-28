@@ -5,8 +5,7 @@ This capstone project serves to answer the question of what makes a song popular
 2. Lyric Sentiment Analysis
 3. Billboard Toppers LDA Topic Modeling and UMAP Clustering
 4. Million-song Subset Machine Learning Models
-5. Conclusions
-6. Future Work
+5. Future Work
 
 ### Data Exploration and Cleaning:
 All of the data files can be found in the "Data" folder.
@@ -114,6 +113,11 @@ The data was split into test and training sets training on 35% of the data. The 
 
 Logistic Regression had the highest result with a score of 57.25% and the Linear SVC model performing the worst at 49.68%. 
 
-### Conclusions:
 
 ### Future Work:
+Additional ideas I would like to pursue are:
+Lyrics Generation from Top Songs to try to come up with suggested hits.
+- A further breakdown by genre's and say the top 300 songs each year would be compelling.
+Basically, doing everything again but with the entire available Million-song dataset.
+- A way of scraping all the other songs lyrics would be useful to see if non-hit songs are distinct or similar in lyrics to the hit songs so that song lyrics might be ruled out.
+A similar project but only on instrumental music to try to find the most influential non-lyric factors.
