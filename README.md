@@ -62,6 +62,10 @@ Finally, I examined some of the distributions of other interesting variables:
 
 Not a whole lot interesting to be derived from this, given the time I would like to come back and compare these figures with identical ones that only incorporate the billboard toppers to perhaps notice a trend in the billboard hits although our correlation plot suggests that might be pointless.
 
+I also wanted to utilize Tableau again for this dataset and after examining all the correlations this was the only somewhat interesting plot:
+
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Loudness%20Colored%20by%20Hotness.PNG)
+
 
 
 ### Lyric Sentiment Analysis:
