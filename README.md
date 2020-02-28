@@ -28,6 +28,10 @@ I visualized the top artists of the past 50 years with the most billboard topper
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Artists%20With%20most%20BB%20Toppers.PNG)
 
+I recreated a similar visual with interactivity in Tableau that provides data for all the artists and their respective billboard placements:
+
+![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Top%20Artists.PNG)
+
 We can see that there are many artists who are great and quite close together in chart toppers in the top artists, but no one comes close to Madonna.
 My final initial exploration of the billboard lyrics was to see how lyric variety has changed overtime:
 
