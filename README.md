@@ -42,7 +42,7 @@ My final initial exploration of the billboard lyrics was to see how lyric variet
 Lyric variety appears to have peaked in the early 2000s and has generally been on the decline. Interestingly the lyric variety is still double what it was around the 1970s.
 
 3. The other major dataset used in this project comes from the Million Song dataset. Obviously, this data would require much more capabilities to handle than I personally possess. So instead I have used a 10,000-song subset of this dataset which contains a variety of useful information about the songs. I combined the billboard lyrics data into the same excel file as this one and used a quick excel lookup to find all the billboard hits in our subset and mark them in a new column called `bb_hotsong`. I removed some data I was not interested in such as artist, song title, year, latitude, longitude and location. I also removed all the rows with missing data and ended up with 5648 songs with 410 appearing on our billboard chart toppers! The result can be seen here:
-![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Dataset%20Sample.PNG)
+![alt text](https://github.com/NerdParker/Song-Popularity/blob/master/Images/MS%20subset%20Dataset%20Sample.PNG)
 
 4. In exploring this data the first thing I wanted to do was see if there was any low hanging fruit as far as correlation go so of course I made a correlation plot!
 
