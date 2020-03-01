@@ -8,7 +8,7 @@ This project serves to answer the question of what makes a song popular or succe
 5. Future Work
 
 ### Data Exploration and Cleaning:
-All of the data files can be found in the "Data" folder.
+All the data files can be found in the "Data" folder.
 The initial data cleaning and exploration can be found in `Practicum Lyric Text Cleaning & Exploration.ipynb` and `Practicum MS subset Exploration.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
 
@@ -16,7 +16,7 @@ Dataset: (https://www.kaggle.com/rakannimer/billboard-lyrics)
 1. The top 100 billboard song lyrics data from 1964 - 2015 after some general cleaning looks like this:
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Dataset%20Sample.PNG)
 
-2. Next I cleaned the lyrics by removing punctuation and digits. I left the pronouns, lemmatized the rest to remove the stop words and then joined them back together. I also removed any links, emails and quotes out of habit. 
+2. Next, I cleaned the lyrics by removing punctuation and digits. I left the pronouns, lemmatized the rest to remove the stop words and then joined them back together. I also removed any links, emails and quotes out of habit. 
 A wordcloud of the results is below:
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Cleaned%20Lyric%20WordCloud.PNG)
