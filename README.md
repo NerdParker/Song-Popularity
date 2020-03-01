@@ -11,6 +11,7 @@ This project serves to answer the question of what makes a song popular or succe
 All of the data files can be found in the "Data" folder.
 The initial data cleaning and exploration can be found in `Practicum Lyric Text Cleaning & Exploration.ipynb` and `Practicum MS subset Exploration.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
+(https://www.kaggle.com/rakannimer/billboard-lyrics)
 1. The top 100 billboard song lyrics data from 1964 - 2015 after some general cleaning looks like this:
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Dataset%20Sample.PNG)
 
