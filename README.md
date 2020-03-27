@@ -74,7 +74,7 @@ This plot features "bins" of songs grouping them and coloring them by song hotne
 ### Lyric Sentiment Analysis:
 The lyric sentiment analysis work can be found in `Practicum BB Lyric Sentiment Analysis.ipynb` in the `Jupyter Notebooks` folder as well as the respective python files in the `Python files` folder.
 
-1. In addition to previous text cleaning bi-gram and tri-gram models were made and lemmatized for the text cleaning. TextBlob was sued to determine the sentiment of the lyrics and the results plotted below:
+1. In addition to previous text cleaning bi-gram and tri-gram models were made and lemmatized for the text cleaning. TextBlob was used to determine the sentiment of the lyrics and the results plotted below:
 
 ![alt text](https://github.com/NerdParker/Song-Popularity-Capstone/blob/master/Images/Lyric%20Sentiment.png)
 
